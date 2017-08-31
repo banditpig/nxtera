@@ -8,7 +8,7 @@ Below is a Haskell solution  of the dictionary based question.
 import Data.Map (empty, Map, insertWith)
 
 wordsOccur :: [String] -> Map String Int <br />
-wordsOccur  = foldr f empty  where 
+wordsOccur  = foldr f empty  where <br />
     f x  = insertWith (+) x 1
     
 ----------
