@@ -11,7 +11,6 @@ import static java.util.stream.Collectors.groupingBy;
 
 public class StringManip {
 
-    //Problem 1
     public final  Map<String, Long> wordsOccur(String text) {
 
         if(text == null || text.length() == 0 ) return new HashMap<>();// or maybe illegal arg. exception
@@ -21,7 +20,7 @@ public class StringManip {
 
 
     }
-    //Problem 2
+   
     public final String insertNewlines(String text, int lineLen){
 
         if(lineLen <=0 ) throw new IllegalArgumentException("Line length should be at least 1");
