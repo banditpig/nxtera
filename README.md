@@ -9,7 +9,7 @@ import Data.Map (empty, Map, insertWith)
 
 wordsOccur :: [String] -> Map String Int <br />
 wordsOccur  = foldr f empty  where <br />
-    f x  = insertWith (+) x 1
+      f x  = insertWith (+) x 1
     
 ----------
 
